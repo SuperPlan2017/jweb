@@ -1,5 +1,7 @@
 package com.mmj.model;
 
+import java.io.Serializable;
+
 /*******************************************************************************
  * Copyright (c) 2017 daixinlian.com
  *
@@ -9,7 +11,7 @@ package com.mmj.model;
  *   Miller Ming - Initial implementation
  *   2017/10/8
  *******************************************************************************/
-public class User {
+public class User  implements Serializable{
 
     private Integer id; //编号
     private String  name; //名称

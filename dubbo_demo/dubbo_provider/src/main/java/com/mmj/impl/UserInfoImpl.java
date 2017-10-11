@@ -18,7 +18,7 @@ public class UserInfoImpl implements IUserInfo {
     public User saveUser(User user) {
         user.setAge(user.getAge()+2);
         user.setGender(1);
-        user.setName("Miller");
+        user.setName("Meijun");
         return user;
     }
 }

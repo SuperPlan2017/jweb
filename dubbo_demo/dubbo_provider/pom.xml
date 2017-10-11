@@ -64,6 +64,12 @@
       <artifactId>zkclient</artifactId>
       <version>0.1</version>
     </dependency>
+    <dependency>
+      <groupId>com.daixinlian</groupId>
+      <artifactId>daixinlian_commons</artifactId>
+      <version>2.1</version>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>dubbo_provider</finalName>
